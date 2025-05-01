@@ -12,4 +12,9 @@ class Segitiga {
         return 0.5 * a * t;
     }
 
-   
+    public:
+        void outputData() {
+            cout << "Alas             : " << alas << endl;
+            cout << "Tinggi           : " << tinggi << endl;
+           
+    
