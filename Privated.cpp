@@ -17,4 +17,15 @@ class Segitiga {
             cout << "Alas             : " << alas << endl;
             cout << "Tinggi           : " << tinggi << endl;
            
-    
+            // Cek apakah alas genap
+            if (alas % 2 == 0) {
+                hasilLuas = hitungLuas(alas, tinggi);
+                cout << "Luas Segitiga    : " << hasilLuas << "cm" << endl;
+            } else {
+                cout << "Alas yang dimasukkan adalah bilangan ganjil," << endl;
+                cout << "luas tidak dapat dihitung." << endl;
+            }
+        }
+    };
+ 
+   
