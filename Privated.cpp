@@ -7,4 +7,9 @@ class Segitiga {
         int tinggi = 5;
         float hasilLuas;
      
-    
+    // Fungsi private hanya dipanggil jika alas genap
+    float hitungLuas(int a, int t) {
+        return 0.5 * a * t;
+    }
+
+   
